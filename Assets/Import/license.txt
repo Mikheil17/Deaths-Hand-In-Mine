@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lilies
+* source:	https://sketchfab.com/3d-models/lilies-45755df496804cb7a36f6f32305b57a7
+* author:	sligocreatures (https://sketchfab.com/sligocreatures)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lilies" (https://sketchfab.com/3d-models/lilies-45755df496804cb7a36f6f32305b57a7) by sligocreatures (https://sketchfab.com/sligocreatures) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
