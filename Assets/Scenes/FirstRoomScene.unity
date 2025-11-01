@@ -3793,6 +3793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vinyls_3
       objectReference: {fileID: 0}
+    - target: {fileID: 5376722035090076615, guid: cde888e146d5eff409a36e73b24bc4d4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 11e3ce9d4ccf2514fba23b909480ef08, type: 2}
     - target: {fileID: 8884791993959245071, guid: cde888e146d5eff409a36e73b24bc4d4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -3815,7 +3819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8884791993959245071, guid: cde888e146d5eff409a36e73b24bc4d4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.141
+      value: -0.288
       objectReference: {fileID: 0}
     - target: {fileID: 8884791993959245071, guid: cde888e146d5eff409a36e73b24bc4d4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5237,6 +5241,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3830737634674853344, guid: 2df1c4bbf396e244aa4d0fae0598faaf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32f1eb09d3041b34aaf0a0cb1e5d4732, type: 2}
     - target: {fileID: 8924059551022621749, guid: 2df1c4bbf396e244aa4d0fae0598faaf, type: 3}
       propertyPath: m_Name
       value: Vinyls_2
@@ -5376,7 +5384,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0c22b31fb38276b48aea04c2d7528d29, type: 2}
+  - {fileID: 2100000, guid: 53097aee41a1ea940b98885d02813bb2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
