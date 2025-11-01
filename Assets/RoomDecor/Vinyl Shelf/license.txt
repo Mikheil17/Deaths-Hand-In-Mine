@@ -1,0 +1,11 @@
+Model Information:
+* title:	Record Shelf 2
+* source:	https://sketchfab.com/3d-models/record-shelf-2-061420fb1f544a95950c83fca5ea4800
+* author:	Billy Poydar (https://sketchfab.com/billypoydar)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Record Shelf 2" (https://sketchfab.com/3d-models/record-shelf-2-061420fb1f544a95950c83fca5ea4800) by Billy Poydar (https://sketchfab.com/billypoydar) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)

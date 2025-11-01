@@ -1,0 +1,11 @@
+Model Information:
+* title:	Watering Can
+* source:	https://sketchfab.com/3d-models/watering-can-2f2283cf4b5946488d05e744c86826ee
+* author:	Toonz Media Group (https://sketchfab.com/taipl)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Watering Can" (https://sketchfab.com/3d-models/watering-can-2f2283cf4b5946488d05e744c86826ee) by Toonz Media Group (https://sketchfab.com/taipl) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
