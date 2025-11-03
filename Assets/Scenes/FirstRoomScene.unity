@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 01f4eb1c73693428d923f1520032e7f9, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -20308,7 +20308,7 @@ Transform:
   m_GameObject: {fileID: 1093955285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -1.3601298, y: 0.38877833, z: 0.28728163}
+  m_LocalPosition: {x: 1.196, y: 0.38877833, z: 0.287}
   m_LocalScale: {x: 5, y: 2, z: 0.10000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21285,7 +21285,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1155496189
 Transform:
   m_ObjectHideFlags: 0
@@ -23757,7 +23757,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1250799553
 Transform:
   m_ObjectHideFlags: 0
@@ -25252,11 +25252,11 @@ Transform:
   m_GameObject: {fileID: 1366583088}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.48820546, z: -0, w: 0.87272877}
-  m_LocalPosition: {x: -4.7501, y: -0.1742, z: 1.0806}
-  m_LocalScale: {x: 0.030000012, y: 0.00010000003, z: 0.055000015}
+  m_LocalPosition: {x: -4.8167, y: -0.1742, z: 1.1767}
+  m_LocalScale: {x: 0.030000012, y: 0.00010000003, z: 0.05500001}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1404646576}
+  m_Father: {fileID: 1934181349}
   m_LocalEulerAnglesHint: {x: 0, y: 58.445, z: 0}
 --- !u!65 &1366583090
 BoxCollider:
@@ -25805,7 +25805,6 @@ Transform:
   - {fileID: 112104330}
   - {fileID: 1382087075}
   - {fileID: 373981984}
-  - {fileID: 1366583089}
   - {fileID: 139217583}
   - {fileID: 1387893826}
   - {fileID: 1934181349}
@@ -38786,11 +38785,12 @@ Transform:
   m_GameObject: {fileID: 1934181348}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.96, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1966051009}
+  - {fileID: 1366583089}
   m_Father: {fileID: 1404646576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1937243431
