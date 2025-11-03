@@ -1,0 +1,11 @@
+Model Information:
+* title:	Typewriter
+* source:	https://sketchfab.com/3d-models/typewriter-4954fbf220d748ecbd82005f31d29f15
+* author:	landout (https://sketchfab.com/landout)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Typewriter" (https://sketchfab.com/3d-models/typewriter-4954fbf220d748ecbd82005f31d29f15) by landout (https://sketchfab.com/landout) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
