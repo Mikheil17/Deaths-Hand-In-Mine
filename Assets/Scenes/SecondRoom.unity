@@ -4655,7 +4655,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1082033475609513560, guid: abd84a127f4e1d144a0e2484cf3b2ebd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.822052
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 1082033475609513560, guid: abd84a127f4e1d144a0e2484cf3b2ebd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7887,7 +7887,9 @@ PrefabInstance:
       value: Vinyls_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8641237809913554545, guid: 2df1c4bbf396e244aa4d0fae0598faaf, type: 3}
+    - {fileID: 7736041427621838309, guid: 2df1c4bbf396e244aa4d0fae0598faaf, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2df1c4bbf396e244aa4d0fae0598faaf, type: 3}
@@ -8927,7 +8929,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1275855696692332332, guid: 00bfc17fc4a0bac40973fee7ec71c02f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.772232
+      value: -67.7
       objectReference: {fileID: 0}
     - target: {fileID: 1275855696692332332, guid: 00bfc17fc4a0bac40973fee7ec71c02f, type: 3}
       propertyPath: m_LocalPosition.y
