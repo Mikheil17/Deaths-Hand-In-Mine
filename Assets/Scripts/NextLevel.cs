@@ -11,6 +11,7 @@ public class NextLevel : MonoBehaviour
     
     [Header("Timer Reference")]
     [SerializeField] private BedTimer bedTimer;
+    [SerializeField] private bool waitForBedTimer = false; // Checkbox to control bed timer dependency
     
     [Header("Scene Transition")]
     [SerializeField] private bool useSceneTransition = true;
@@ -54,6 +55,14 @@ public class NextLevel : MonoBehaviour
         // Check if OVR Camera Rig is inside the trigger and start eye closing animation
         if (!sceneTransitionTriggered && !animationInProgress && IsOVRCameraRigInside())
         {
+            StartEyeClosingAnimation();
+        }
+        
+        // If we're waiting for bed timer and player is in trigger, keep checking timer status
+        if (!sceneTransitionTriggered && !animationInProgress && waitForBedTimer && 
+            bedTimer != null && IsOVRCameraRigInside() && bedTimer.IsTimerComplete())
+        {
+            Debug.Log("NextLevel: Bed timer completed while player in trigger, starting animation");
             StartEyeClosingAnimation();
         }
     }
@@ -163,6 +172,24 @@ public class NextLevel : MonoBehaviour
     
     private void StartEyeClosingAnimation()
     {
+        // Check if we need to wait for bed timer
+        if (waitForBedTimer && bedTimer != null)
+        {
+            if (!bedTimer.IsTimerComplete())
+            {
+                Debug.Log("NextLevel: Waiting for bed timer to complete before proceeding...");
+                return; // Don't start animation yet, timer not complete
+            }
+            else
+            {
+                Debug.Log("NextLevel: Bed timer complete, proceeding with scene transition");
+            }
+        }
+        else if (waitForBedTimer && bedTimer == null)
+        {
+            Debug.LogWarning("NextLevel: Wait for bed timer is enabled but no BedTimer reference found!");
+        }
+        
         sceneTransitionTriggered = true;
         animationInProgress = true;
         

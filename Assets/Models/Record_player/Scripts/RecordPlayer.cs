@@ -95,10 +95,23 @@ public class RecordPlayer : MonoBehaviour
         arm.transform.localEulerAngles = new Vector3(0.0f, armAngle, 0.0f);
         disc.transform.localEulerAngles = new Vector3(0.0f, discAngle, 0.0f);
 
-        // Rotate vinyl around world Y axis while spinning
+        // Rotate vinyl while keeping it positioned on the record player
         if (vinyl != null && recordPlayerActive && discSpeed > 0.0f)
         {
-            vinyl.transform.Rotate(Vector3.up, discSpeed * Time.deltaTime, Space.World);
+            // Keep vinyl positioned on the disc surface
+            Vector3 discPosition = disc.transform.position;
+            Vector3 discUp = disc.transform.up;
+            
+            // Position vinyl slightly above the disc surface
+            vinyl.transform.position = discPosition + discUp * 0.01f;
+            
+            // Rotate vinyl around its local Y axis (or match disc rotation)
+            vinyl.transform.Rotate(0f, discSpeed * Time.deltaTime, 0f, Space.Self);
+            
+            // Ensure vinyl rotation matches disc orientation
+            Vector3 vinylEuler = vinyl.transform.eulerAngles;
+            vinylEuler.y = discAngle;
+            vinyl.transform.eulerAngles = vinylEuler;
         }
 
         // Audio control: play only when arm is fully moved and spinning (mode 2)

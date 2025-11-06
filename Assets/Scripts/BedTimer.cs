@@ -124,4 +124,10 @@ public class BedTimer : MonoBehaviour
             targetBoxCollider.enabled = false;
         }
     }
+    
+    // Public method to check if timer is complete
+    public bool IsTimerComplete()
+    {
+        return timerStarted && !timerActive && currentTime <= 0;
+    }
 }
