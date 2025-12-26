@@ -14,3 +14,8 @@ Unity | C#
 
 ## Context
 Created as part of a VXR class, focusing on VR embodiment mechanics.
+
+<img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Img1.png" width="400"> <img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Gif1.gif" width="400">
+<img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Img2.png" width="400"> <img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Gif2.gif" width="400">
+<img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Img3.png" width="400"> <img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Gif3.gif" width="400">
+<img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Img4.png" width="400"> <img src="https://github.com/Mikheil17/Deaths-Hand-In-Mine/blob/main/Gif4.gif" width="400">
